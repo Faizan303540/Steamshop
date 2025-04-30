@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Streamshop</title>
+</head>
+<body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <img src="assets/images/logo.png" alt="" class="logo-img">
+       </div>
+        <ul class="nav-links">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="ourshop.html">Our shop</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+  
+        <div class="hamburger-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <a href="Home.html"><i class="fas fa-home"></i> Home</a>
+        <a href="ourshop.html"><i class="fa fa-shop"></i>Our shop</a>
+        <a href="product.html"><i class="fa fa-gamepad"></i>Products</a>
+        <a href="contactus.html"><i class="fas fa-console"></i> Contact Us</a>
+      </div>
+
+    <header class="contact-header">
+        <div class="container">
+            <h1 class="dot">Products</h1>
+            <p>We'd love to hear from you! Get in touch with our team.</p>
+        </div>
+    </header>
+
+    <!-- brands dropdown -->
+
+    <!-- Trending Section -->
+<div class="section trending">
+  <div class="container">
+    <div class="trending-filter">
+      <ul>
+        <li><a href="product.html">Show All</a></li>
+        <li><a href="sony.html">Sony</a></li>
+        <li><a href="microsoft.html">Microsoft</a></li>
+        <li><a class="is_active" href="nintendo.html">Nintendo</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <section id="products" class="products">
+        <h2 class="section-title">Nintendo</h2>
+  
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                  <img
+                    src="assets/images/DS.jpeg"  alt=""/>
+                </div>
+                <div class="product-info">
+                  <h3>DS</h3>
+                  <p>
+                    The Nintendo DS is a handheld gaming console released in 2004, known for its dual-screen design—one of which is a touchscreen. It introduced innovative gameplay with stylus controls, built-in microphone, and Wi-Fi connectivity...
+                  </p>
+                  <p class="price">Price - $600</p>
+                  <button class="view-details" data-product="DS">
+                    View Details
+                  </button>
+                </div>
+              </div>
+      
+              <div class="product-card">
+                <div class="product-image">
+                  <img
+                    src="assets/images/switch.webp"  alt=""/>
+                </div>
+                <div class="product-info">
+                  <h3>Switch</h3>
+                  <p>
+                    The Nintendo Switch is a versatile hybrid gaming console that can be used as both a home console and a portable handheld device. Launched in 2017, it features detachable Joy-Con controllers...
+                  </p>
+                  <p class="price">Price - $700</p>
+                  <button class="view-details" data-product="switch">
+                    View Details
+                  </button>
+                 </div>
+               </div>
+        </div>
+      </section>
+  
+      <div id="DS-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <div class="modal-product">
+            <img
+              src="assets/images/DS.jpeg"
+              alt=""
+              class="modal-product-image"
+            />
+            <div class="modal-product-info">
+              <h3>DS</h3>
+              <p class="modal-price">Price - $250</p>
+              <p class="modal-description">
+                The Nintendo DS is a handheld gaming console released in 2004, known for its dual-screen design—one of which is a touchscreen. It introduced innovative gameplay with stylus controls, built-in microphone, and Wi-Fi connectivity for multiplayer. With a huge library of family-friendly and iconic games like *Pokémon*, *Mario Kart DS*, and *Brain Age*, the DS became one of the best-selling consoles of all time, popular for its portability and creative gameplay.
+              </p>
+              <div class="modal-actions">
+                <button class="btn-cart">
+                  <i class="fas fa-download"></i> Dawnload Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="switch-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <div class="modal-product">
+            <img
+              src="assets/images/switch.webp"
+              alt=""
+              class="modal-product-image"
+            />
+            <div class="modal-product-info">
+              <h3>Switch</h3>
+              <p class="modal-price">Price - $700</p>
+              <p class="modal-description">
+                The Nintendo Switch is a versatile hybrid gaming console that can be used as both a home console and a portable handheld device. Launched in 2017, it features detachable Joy-Con controllers, a touchscreen, and a library of popular exclusive titles like *The Legend of Zelda: Breath of the Wild* and *Animal Crossing: New Horizons*. Its unique design and multiplayer-friendly features make it perfect for gaming on the go or at home with friends and family.
+              </p>
+              <div class="modal-actions">
+                <button class="btn-cart">
+                  <i class="fas fa-download"></i> Dawnload Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+  
+      <section id="contact" class="contact">
+        <h2 class="section-title">Visit Us</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Location & Hours</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> 123
+              games Street,UK
+            </p>
+            <p>
+              <i class="fas fa-phone"></i> <strong>Phone:</strong> (020) 1234-5678
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i>
+              <strong>Email:</strong> steamshop@gmail.com
+            </p>
+            <p><i class="fas fa-clock"></i> <strong>Hours:</strong></p>
+            <p>
+              Monday-Friday: 7am - 6pm<br />
+              Saturday: 8am - 5pm<br />
+              Sunday: 8am - 3pm
+            </p>
+            <p>We accept with 48 hours notice.</p>
+          </div>
+        </div>
+      </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+  
+        <div class="footer-section">
+          <div class="footer-logo">
+            <a href="index.html">
+              <img src="assets/images/logo.png" alt="Logo" style="width: 158px;">
+            </a>
+          </div>
+          <div class="footer-contact">
+            <a href="index.html">
+              <img src="assets/images/logo_footer_1.png" alt="Footer Logo" style="width: 50px;">
+            </a>
+            <div>
+              <p>Call/Whatsapp</p>
+              <p>+123 456 7890</p>
+            </div>
+          </div>
+          <div class="footer-info">
+            <p>Email: steamshop@gmail.com</p>
+            <p>Our Timings:</p>
+            <p>Monday – Saturday: 12:00 PM – 9:00 PM</p>
+            <p>Sunday: 3:00 PM – 9:00 PM</p>
+            <p>Address: Sunny Isles Beach, FL 33160, United States</p>
+          </div>
+        </div>
+    
+        <div class="footer-section">
+          <h3>Links</h3>
+          <br/>
+          <ul class="footer-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="ourshop.html">Our Shop</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h>Payment Methods</h3>
+          <div class="payment-methods">
+            <img src="assets/images/jazzcash.png" alt="JazzCash">
+            <img src="assets/images/easypaisa.png" alt="EasyPaisa">
+            <img src="assets/images/nayapay.png" alt="NayaPay">
+            <img src="assets/images/habib.png" alt="Habib">
+            <img src="assets/images/meezan.png" alt="Meezan">
+            <img src="assets/images/bank alfala.png" alt="Bank Alfalah">
+            <img src="assets/images/master card.png" alt="MasterCard">
+            <img src="assets/images/visa.jpg" alt="Visa">
+            <img src="assets/images/bank transfer.png" alt="Bank Transfer">
+          </div>
+        </div>
+    
+      </div>
+
+      <div class="footer-bottom">
+        <p>Copyright © 2048 Steamshop Gaming Company. All rights reserved.</p>
+      </div>
+    </footer>
+     <script src="script.js"></script>
+</body>
+</html>
